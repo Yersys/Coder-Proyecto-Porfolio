@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Space+Mono:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #0b0b0b;
+}
+/**header**/
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width:100%;
+    background: black;
+    background: rgba(19, 19, 21,0.7);
+    border-bottom: 2px solid rgba(255,255,255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.logo img{
+    height: 80px;
+    width: auto;
+    cursor: pointer;
+    margin-left: 100px;
+    border-radius: 50px;
+
+}
+.nav-links{
+    list-style: none;
+    margin-right: 100px;
+}
+li, a{
+    font-family: 'Space Mono', monospace;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+/**home**/
+.firt-section{
+    position: relative;
+    background: url(image/bg-first-setion.png) center 0 no-repeat #0b0b0b ;
+    background-size: cover;
+}
+.grid-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.colum{
+    padding: 0 15px 0 15px;
+    width: 50%;
+
+}
+
+.title{
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 50px;
+    color: white;
+}
+.paragraph{
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+/**section card**/
+.grid-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.title{
+    text-align: center;
+    margin:50px 0 90px 0;
+}
+.card{
+    position: relative;
+    max-width: 350px;
+}
+.img-card{
+    max-width: 300px;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;     
+}
+.footer{
+    padding: 90px 0;
+    background:url(../css/image/bg-footer-min.png) center 0 no-repeat;
+    background-size: cover;
+}
+
+/**section all projects**/
+
+.container-info{
+    background: red;
+    max-width: 1060px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.container-info .title-allprojects{
+    background: blue;
+}

@@ -22,14 +22,17 @@
   <body>
     <header>
       <a href="index.html" class="logo-header"> <span>sys</span>developer </a>
-      <nav>
+      <nav class="main-navigation" id="mainNavigation">
         <ul class="nav-links">
-          <li><a href="#">HOME</a></li>
-          <li><a href="./pages/aboutme.html">ABOUT ME</a></li>
-          <li><a href="./pages/projects.html">PROJECTS</a></li>
-          <li><a href="./pages/contact.html">CONTACT</a></li>
+          <li class="nav-link current-item"><a href="#">HOME</a></li>
+          <li class="nav-link"><a href="./pages/aboutme.html">ABOUT ME</a></li>
+          <li class="nav-link"><a href="./pages/projects.html">PROJECTS</a></li>
+          <li class="nav-link"><a href="./pages/contact.html">CONTACT</a></li>
         </ul>
       </nav>
+      <button class="button-burguer" id="buttonBurguer">
+        <iconify-icon id="burguer" class="burguer" icon="mdi-light:menu" width="40"></iconify-icon>
+      </button>
     </header>
     <main class="main">
       <section class="firt-section">
@@ -195,4 +198,5 @@
     ></script>
   </body>
   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script src="js/main.js"></script>
 </html>

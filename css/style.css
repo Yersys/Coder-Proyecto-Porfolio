@@ -172,14 +172,12 @@ li:hover{
     z-index:950;
     cursor:pointer;
     transition: .35s ease-in-out;
-
-        
 }
 .button-burguer:hover{
     color: #44f814;
 }
 
-.close .burguer{
+.close, .burguer{
     display: none;
 }
 

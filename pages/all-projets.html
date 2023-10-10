@@ -9,83 +9,262 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <a href="../index.html" class="logo-header">
             <span>sys</span>developer
         </a>
-        <nav>
+        <nav class="main-navigation" id="mainNavigation">
             <ul class="nav-links">
                 <li class="nav-li"><a class="li-nav" href="../index.html">HOME</a></li>
                 <li class="nav-li"><a class="li-nav" href="./aboutme.html">ABOUT ME</a></li>
-                <li class="nav-li"><a class="li-nav" href="#">PROJECTS</a></li>
+                <li class="nav-li"><a class="li-nav" href="./projects.html">PROJECTS</a></li>
                 <li class="nav-li"><a class="li-nav" href="./contact.html">CONTACT</a></li>
             </ul>
         </nav>
+        <button class="button-burguer" id="buttonBurguer">
+            <iconify-icon id="burguer" class="burguer" icon="mdi-light:menu" width="40"></iconify-icon>
+        </button>
     </header>
-    <main>
-        <section>
-            <article class="container-info">
-                    <h2 class="title-allprojects">
-                        All Projects
-                    </h2>
-                <div class="container-card">
-                    <h2>Title Project 1</h2>
-                    <h3>Subtitle</h3>
+    <section class="all-projects">
+        <article class="container">
+            <h1 class="title title_big title_pink">
+                All projects
+            </h1>
+            <div class="card2">
+                <div class="card2-header">
+                    <h3>
+                        Project 1
+                    </h3>
+                    <h4>
+                        Subtitle
+                    </h4>
                 </div>
-                <div>
-                    <div class="card">
-                        <img src="../css/image/project.png" alt="_blank">
+                <div class="card2-content">
+                    <div class="col col-img">
+                        <img class="small-card" src="../images/image/1.png" />
                     </div>
-                    <div>
+                    <div class="col">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur. Etiam neque gravida lorem ut aliquam posuere commodo augue urna.
-                            Lorem ipsum dolor sit amet consectetur. Etiam neque gravida lorem ut aliquam posuere commodo augue urna. 
+                            Lorem ipsum dolor sit amet consectetur. Etiam neque gravida lorem ut aliquam posuere
+                            commodo augue urna.
                         </p>
-                    </div>
-                </div>
-            </article>
-        </section>
-        
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="container">
-                <div>
-                    <div>
-                        <div class="col">
-                            <div class="footer-contacts">
-                                <a class="link link_underline-none" href="mailto:info@misitio.com" title="info@misitio.com">
-                                    info@misitio.com
-                                </a>
-                                <a class="link link_underline-none" href="tel:+598123456789" title="+598-123456789">
-                                    +598-123456789
-                                </a>
-                            </div>
-                            <div class="footer-socials">
-                                <a href="https://www.instagram.com" target="_blank" title="Siguenos en instagram">
-                                <iconify-icon icon="akar-icons:instagram-fill" style="color: white;" width="40" height="40"></iconify-icon>
-                                </a>
-                                <a href="https://www.facebook.com/" target="_blank" title="Siguenos en facebook">
-                                <iconify-icon icon="mingcute:facebook-line" style="color: white;" width="40" height="40"></iconify-icon>
-                                </a>
-                                <a href="https://www.linkedin.com" target="_blank" title="Siguenos en linkedin">
-                                    <iconify-icon icon="cib:linkedin" style="color: white;" width="40" height="40"></iconify-icon>
-                                </a>
-    
-                            
-                            </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Etiam neque gravida lorem ut aliquam posuere
+                            commodo augue urna.
+                        </p>
+                        <div class="card2-button-wrap">
+                            <a href="https://wa.me/598099999999?text=Te%20escribo%20desde%20la%20web%20" class="buttons buttons_fill">
+                                Contact
+                            </a>
                         </div>
                     </div>
+                 
                 </div>
+            </div>
+            <div class="card2">
+                <div class="card2-header">
+                    <h3>
+                        Project 2
+                    </h3>
+                    <h4>
+                        Subtitle
+                    </h4>
+                </div>
+                <div class="card2-content">
+                    <div class="col col-img">
+                        <img class="small-card" src="../images/image/2.png" />
+                    </div>
+                    <div class="col">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Etiam neque gravida lorem ut aliquam posuere
+                            commodo augue urna.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Etiam neque gravida lorem ut aliquam posuere
+                            commodo augue urna.
+                        </p>
+                        <div class="card2-button-wrap">
+                            <a href="https://wa.me/598099999999?text=Te%20escribo%20desde%20la%20web%20" class="buttons buttons_fill">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+            <div class="card2">
+                <div class="card2-header">
+                    <h3>
+                        Project 3
+                    </h3>
+                    <h4>
+                        Subtitle
+                    </h4>
+                </div>
+                <div class="card2-content">
+                    <div class="col col-img">
+                        <img class="small-card" src="../images/image/3.png" />
+                    </div>
+                    <div class="col">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Etiam neque gravida lorem ut aliquam posuere
+                            commodo augue urna.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Etiam neque gravida lorem ut aliquam posuere
+                            commodo augue urna.
+                        </p>
+                        <div class="card2-button-wrap">
+                            <a href="https://wa.me/598099999999?text=Te%20escribo%20desde%20la%20web%20" class="buttons buttons_fill">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+            
+        
+        </article>
+
+    </section>
+    <footer class="bg-ligth text-dark pt-5 pb-4">
+        <div class="container text-center text-md-start">
+          <div class="row text-center text-md-start">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-white">
+                who I am
+              </h5>
+              <hr class="mb-4" />
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+                sint assumenda dolore perferendis vel earum facere, unde saepe,
+                temporibus fugiat minima quis pariatur atque eos illum doloremque
+                voluptatibus! Non, sequi?
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-white">
+                Deja tus comentarios
+              </h5>
+              <hr class="mb-4" />
+              <p>
+                  <a href="#" class="text-white li-nav">Tu cuenta</a>              
+              </p>
+              <p>
+                  <a href="#" class="text-white li-nav">Tu Ordenes</a>              
+              </p>
+              <p>
+                  <a href="#" class="text-white li-nav">Manejo de cuentas</a>              
+              </p>
+              <p>
+                  <a href="#" class="text-white li-nav">Ayuda</a>              
+              </p>
+            </div>
+    
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-white">
+                Has dinero
+              </h5>
+              <hr class="mb-4" />
+              <p>
+                  <a href="#" class="text-white li-nav">Vende tus productos</a>              
+              </p>
+              <p>
+                  <a href="#" class="text-white li-nav">Anuncios</a>              
+              </p>
+              <p>
+                  <a href="#" class="text-white li-nav">Afiliate</a>              
+              </p>
+              <p>
+                  <a href="#" class="text-white li-nav">Publica</a>              
+              </p>
+            </div>
+    
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-white">
+                Contacto
+              </h5>
+              <hr class="mb-4" />
+              <p>
+                  <li class="fas fa-home me-3 text-white"></li> <span class="data">Uruguay, Montevideo</span>         
+              </p>
+              <p>
+                  <li class="fas fa-envelope me-3 text-white"></li> <span class="data">sysdev@gmail.com</span>       
+              </p>
+              <p>
+                  <li class="fas fa-phone me-3 text-white"></li><span class="data">+59896933061</span>      
+              </p>
+              <p>
+                  <li class="fas fa-print me-3 text-white"></li> <span class="data">+59896933061</span>      
+              </p>            
+            </div>
+    
+            <hr class="mb-4">
+    
+            <div class="text-center mb-2">
+              <p class="text-white">
+                  Copyright SysDeveloper
+                  <a class="li-nav" href="#">
+                      <strong class="text-white">SysDeveloper</strong>
+                  </a>
+              </p>
+            </div>
+    
+            <div class="text-center">
+    
+              <ul class="list-umstyled list-inline">
+    
+                  <li class="list-inline-item">
+                      <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      title="Siguenos en facebook"
+                    >
+                      <iconify-icon
+                        icon="mingcute:facebook-line"
+                        style="color: white"
+                        width="40"
+                        height="40"
+                      ></iconify-icon>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a
+                      href="https://www.linkedin.com"
+                      target="_blank"
+                      title="Siguenos en linkedin"
+                    >
+                      <iconify-icon
+                        icon="cib:linkedin"
+                        style="color: white"
+                        width="40"
+                        height="40"
+                      ></iconify-icon>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                      <a
+                      href="https://www.instagram.com"
+                      target="_blank"
+                      title="Siguenos en instagram"
+                    >
+                      <iconify-icon
+                        icon="akar-icons:instagram-fill"
+                        style="color: white"
+                        width="40"
+                        height="40"
+                      ></iconify-icon>
+                    </a>
+                  </li>
+              </ul>
     
             </div>
-            <div class="footer-copy paragraph" >
-                <p>
-                    &copy; 2023 by sysdigner
-                </p>
-            </div>
+    
+          </div>
         </div>
-    </footer> 
+      </footer>
+      <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+      <script src="../js/main.js"></script>
 </body>
-<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </html>

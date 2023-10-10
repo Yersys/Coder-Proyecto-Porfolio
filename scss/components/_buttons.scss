@@ -1,0 +1,26 @@
+.buttons {
+    min-width:100px;
+    height:50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size:16px;
+    font-family: $space-mono;
+    text-decoration: none;
+    color:$white;
+    padding:0 20px;
+    border-radius: 8px;
+    transition: .35s ease-in-out;
+    &_outlined {
+        border:1px solid $white;
+        &:hover {
+            border:1px solid $verde;
+            background: $verde;
+        }
+    };
+    &_fill {
+        min-width:180px;
+        border:1px solid $white;
+        background: rgba(214,72,219,.15);
+    }
+}

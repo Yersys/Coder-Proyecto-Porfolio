@@ -59,3 +59,10 @@ display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 50px 50px 50px;    
+}

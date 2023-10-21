@@ -1,12 +1,33 @@
-body{
-    background: #0b0b0b;
+body {
+  background: #0b0b0b;
 }
 
-$white:#fff;
-$verde:#44f814;
-$black:#000000;
-$dark:#222222;
+$white: #fff;
+$verde: #44f814;
+$black: #000000;
+$dark: #222222;
 
-$fascinate:'Fascinate Inline';
-$space-mono:'Space Mono', monospace;
+$fascinate:'Fascinate Inline', cursive;
+$space-mono: "Space Mono", monospace;
 
+.float-anim {
+animation: imgFlotando 10s ease-in-out infinite;
+}
+
+@keyframes imgFlotando {
+    0%{
+    transform: translate3d(0,0,0);
+    }
+    30%{
+    transform: translate3d(0,-1%,0);
+    }
+    50%{
+    transform: translate3d(0%,0%,0);
+    }
+    70%{
+    transform: translate3d(0,1%,0);
+    }
+    100%{
+    transform: translate3d(0,0,0);
+    }
+}

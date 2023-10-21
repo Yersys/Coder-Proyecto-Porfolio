@@ -1,4 +1,4 @@
-@media only screen and (min-width:700px) {
+@media only screen and (min-width:721px) {
 
     .contact-wrapper {
         display: grid;
@@ -60,4 +60,23 @@
             max-height: 150px;
         }
     }
+}
+
+.custom-width{
+    
+    @media only screen and (max-width:721px){
+        max-width: 650px;
+            }
+            @media only screen and (max-width:671px){
+                max-width: 550px;
+            }        
+            @media only screen and (max-width:565px){
+                max-width: 450px;
+            }
+            @media only screen and (max-width:469px){
+                max-width: 350px;
+            }
+            @media only screen and (max-width:365px){
+                max-width: 300px;
+            }
 }

@@ -27,7 +27,7 @@
     a{
         text-transform: uppercase;
         text-decoration: none;
-        font-family: 'space mono';
+        font-family: $fascinate;
         color: $white;
         transition: 0.25s ease-in-out;
         &:hover{
@@ -39,11 +39,11 @@
 }
 
 .logo-header{
-    font-family: 'Fascinate Inline';
+    font-family: $fascinate;
     text-decoration: none;
     margin-left: 100px;
     font-size: 20px;
-    color: white;
+    color: $white;
     text-transform: uppercase;
     transition: .5s ease-in-out;
     span{

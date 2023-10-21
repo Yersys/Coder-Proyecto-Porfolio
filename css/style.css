@@ -2,6 +2,27 @@ body {
   background: #0b0b0b;
 }
 
+.float-anim {
+  animation: imgFlotando 10s ease-in-out infinite;
+}
+
+@keyframes imgFlotando {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  30% {
+    transform: translate3d(0, -1%, 0);
+  }
+  50% {
+    transform: translate3d(0%, 0%, 0);
+  }
+  70% {
+    transform: translate3d(0, 1%, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -45,7 +66,7 @@ body {
 .main-header a {
   text-transform: uppercase;
   text-decoration: none;
-  font-family: "space mono";
+  font-family: "Fascinate Inline", cursive;
   color: #fff;
   transition: 0.25s ease-in-out;
 }
@@ -54,11 +75,11 @@ body {
 }
 
 .logo-header {
-  font-family: "Fascinate Inline";
+  font-family: "Fascinate Inline", cursive;
   text-decoration: none;
   margin-left: 100px;
   font-size: 20px;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   transition: 0.5s ease-in-out;
 }
@@ -108,7 +129,7 @@ body {
 }
 
 .title {
-  font-family: "Fascinate Inline";
+  font-family: "Fascinate Inline", cursive;
   font-weight: bold;
   font-size: 50px;
   text-transform: uppercase;
@@ -149,9 +170,16 @@ body {
   align-items: center;
 }
 
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 50px 50px 50px;
+}
+
 .content {
-  max-width: auto;
   margin: 20px;
+  max-width: 700px;
 }
 
 .logo {
@@ -355,7 +383,7 @@ body {
 .title {
   font-size: 40px;
   color: #fff;
-  font-family: "Fascinate Inline";
+  font-family: "Fascinate Inline", cursive;
   margin: 0 0 16px 0;
 }
 .title_big {
@@ -492,7 +520,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 721px) {
   .contact-wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -562,6 +590,32 @@ body {
   .img-card {
     max-width: 250px;
     max-height: 150px;
+  }
+}
+
+@media only screen and (max-width: 721px) {
+  .custom-width {
+    max-width: 650px;
+  }
+}
+@media only screen and (max-width: 671px) {
+  .custom-width {
+    max-width: 550px;
+  }
+}
+@media only screen and (max-width: 565px) {
+  .custom-width {
+    max-width: 450px;
+  }
+}
+@media only screen and (max-width: 469px) {
+  .custom-width {
+    max-width: 350px;
+  }
+}
+@media only screen and (max-width: 365px) {
+  .custom-width {
+    max-width: 300px;
   }
 }
 

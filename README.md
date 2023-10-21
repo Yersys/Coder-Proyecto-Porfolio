@@ -2,6 +2,8 @@
 
 Bienvenido a mi portafolio profesional, una representación de mi trabajo y habilidades como desarrollador web y diseñador. Aquí he utilizado una combinación de tecnologías y herramientas, incluyendo HTML, CSS, Sass, Bootstrap y Figma, para crear un portafolio único que destaca mis proyectos y experiencias.
 
+![Captura de Pantalla de Mi Sitio Web](https://i.postimg.cc/tg8JQq7X/Captura-de-pantalla-2023-10-20-220540.png)
+
 ## Características Destacadas
 
 - **Diseño Atractivo**: El portafolio fue diseñado en Figma para lograr un aspecto atractivo y profesional.
